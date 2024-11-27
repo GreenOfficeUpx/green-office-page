@@ -28,7 +28,7 @@ export const Benefits = () => {
         <h2 className="text-3xl font-bold text-green-600 text-center mb-8">
           Benefícios
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {benefits.map((benefit, index) => (
            <div
            key={index}
